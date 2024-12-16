@@ -1,0 +1,129 @@
+# What is Git?
+# Git is a tool that helps you save changes to your files, keep track of what’s been changed, and work together with others on the same project.
+
+---
+
+# Setting Up Git
+# Step 1: Check if Git is installed on your computer.
+git --version
+# Example Output: git version 2.40.0
+# Step 2: Tell Git your name and email so it knows who is making changes.
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+---
+
+# Starting with Git (Create a Repository)
+# A repository is a folder Git is watching. Let’s set one up!
+# Step 1: Go to your project folder.
+cd C:\path\to\your\project
+# Step 2: Turn it into a Git repository.
+git init
+# Example Output: Initialized empty Git repository in C:/path/to/your/project/.git
+# Now Git will track changes in this folder.
+
+---
+
+# Saving Changes (Add and Commit)
+# Step 1: Check what’s new or changed.
+git status
+# Example Output:
+# Untracked files:
+#   file1.txt
+# Step 2: Tell Git which file(s) to save.
+git add file1.txt
+# To add all files:
+git add .
+# Step 3: Save the changes with a message (commit).
+git commit -m "Add file1.txt"
+# Example Output:
+# [main (root-commit) abc1234] Add file1.txt
+
+---
+
+# Checking What You’ve Saved
+# See a history of all saved changes (commits).
+git log
+# Example Output:
+# commit abc1234 (HEAD -> main)
+# Author: Your Name <your.email@example.com>
+# Date: Mon Dec 16 14:30 2024
+#     Add file1.txt
+
+---
+
+# Working with Online Repositories (GitHub)
+# GitHub stores your repo online so others can see it.
+
+# Step 1: Link your local repo to a GitHub repo.
+git remote add origin https://github.com/user/repo.git
+# Step 2: Upload your files to GitHub.
+git push -u origin main
+
+---
+
+# Downloading a Project (Clone)
+# Get a copy of someone else’s project.
+git clone https://github.com/user/repo.git
+# Example: This creates a folder named `repo` with all the files in it.
+
+---
+
+# Updating Your Project with New Changes
+# If your team makes changes online, download them to your computer.
+git pull origin main
+
+---
+
+# Making Changes to a File
+# Step 1: Edit a file and save it.
+# Step 2: See what’s changed.
+git status
+# Example Output:
+# Changes not staged for commit:
+#   modified: file1.txt
+# Step 3: Save the changes.
+git add file1.txt
+git commit -m "Update file1.txt"
+
+---
+
+
+---
+
+# Branching (Trying Out Ideas)
+# A branch is like a copy of your project where you can try new ideas.
+# Step 1: Create a new branch.
+git branch my-branch
+# Step 2: Switch to the new branch.
+git checkout my-branch
+# Step 3: Make changes, save them (add + commit), and switch back to the main branch.
+git checkout main
+
+---
+
+# Merging Changes (Combine Branches)
+# When your idea works, combine your branch with the main branch.
+git merge my-branch
+
+---
+
+# Basic Git Commands Quick Summary:
+# 1. Start tracking your project:
+git init
+# 2. Check the status:
+git status
+# 3. Add files to save:
+git add file.txt
+# 4. Save changes with a message:
+git commit -m "Message"
+# 5. Upload your files to GitHub:
+git push origin main
+# 6. Get updates from GitHub:
+git pull origin main
+# 7. Create a branch:
+git branch branch-name
+# 8. Switch branches:
+git checkout branch-name
+# 9. Combine branches:
+git merge branch-name

@@ -1,0 +1,110 @@
+// Practice Questions for JavaScript Concepts
+
+// 1. var, let, and const
+// =======================
+
+// Q1. Declare a variable using `var` and update its value twice. Log the value each time.
+
+// Q2. Write a code snippet to demonstrate block scoping with `let`.
+
+// Q3. Use `const` to declare a variable and attempt to update its value. Log the error message.
+
+// Q4. Rewrite the following code using `let` and `const` appropriately:
+// var x = 5;
+// var y = 10;
+// var sum = x + y;
+// console.log(sum);
+
+// 2. Functions
+// =============
+
+// Q1. Create a function named `add` that takes two numbers as arguments and returns their sum.
+
+// Q2. Rewrite the `add` function using an arrow function.
+
+// Q3. Write a function named `greetUser` that logs a greeting message. Use both function declaration and an arrow function.
+
+// Q4. Demonstrate the difference between hoisting in function declarations and arrow functions with examples.
+
+// 3. Destructuring Arrays and Objects
+// =====================================
+
+// Q1. Given the array [10, 20, 30], use array destructuring to extract the first two elements.
+
+// Q2. Use object destructuring to extract `brand` and `year` from the following object:
+// const car = { brand: 'Ford', model: 'Fiesta', year: 2023 };
+
+// Q3. Write code to rename the destructured property `year` as `manufacturingYear`.
+
+// Q4. Demonstrate how to set default values while destructuring an object.
+
+// 4. Rest and Spread Operators
+// =============================
+
+// Q1. Use the rest operator to collect all arguments passed to a function and log them.
+
+// Q2. Combine two arrays `[1, 2]` and `[3, 4, 5]` using the spread operator.
+
+// Q3. Merge two objects `{name: 'John'}` and `{age: 30}` into one using the spread operator.
+
+// Q4. Write a function `sumAll` that uses the rest operator to take any number of arguments and returns their sum.
+
+// 5. Ternary Operator
+// ====================
+
+// Q1. Write a program that checks if a number is even or odd using a ternary operator.
+
+// Q2. Rewrite the following code using a ternary operator:
+// let result;
+// if (score >= 50) {
+//   result = 'Pass';
+// } else {
+//   result = 'Fail';
+// }
+// console.log(result);
+
+// 6. Optional Chaining
+// =====================
+
+// Q1. Access the `city` property of the `address` object in the following nested object using optional chaining:
+// const person = { name: 'Alice', address: { city: 'Wonderland' } };
+
+// Q2. Log the output of `user?.profile?.age` for the object:
+// const user = { profile: { name: 'John' } };
+
+// Q3. Write code to safely access the `zipcode` property of the following object:
+// const location = { state: 'California' };
+
+// 7. Array Methods: map and filter
+// =================================
+
+// Q1. Use `map` to create a new array of squares from the array `[1, 2, 3, 4]`.
+
+// Q2. Use `filter` to create a new array containing only even numbers from `[1, 2, 3, 4, 5, 6]`.
+
+// Q3. Combine `map` and `filter` to first filter out odd numbers and then square the even numbers in `[1, 2, 3, 4, 5]`.
+
+// 8. setInterval and clearInterval
+// =================================
+
+// Q1. Write a program using `setInterval` to log numbers from 1 to 5, then stop using `clearInterval`.
+
+// Q2. Modify the above program to display "Done!" after the interval stops.
+
+// 9. Async/Await
+// ===============
+
+// Q1. Write an `async` function that fetches data from a fake API (use `Promise.resolve('Sample Data')`) and logs the result.
+
+// Q2. Demonstrate error handling in an `async` function using `try-catch`.
+
+// 10. Error Handling
+// ===================
+
+// Q1. Write a `try-catch` block to safely parse JSON from the string `'{invalid: true}'`.
+
+// Q2. Demonstrate how to throw a custom error if a condition is not met (e.g., if a number is negative).
+
+// Q3. Rewrite the following code to handle errors gracefully:
+// const data = JSON.parse('Invalid JSON');
+// console.log(data);

@@ -1,0 +1,89 @@
+# pwd (Windows: Displays the current working directory)
+# On Windows, the command `cd` shows the current working directory. 
+# This is different from Mac/Linux where a separate command `pwd` is used.
+# Example: Show the current working directory.
+cd
+# Example Output: C:\Users\User\Documents
+
+# cd (Change Directory)
+# The `cd` command is used to navigate between folders in your file system.
+# Basic usage:
+# 1. Move into a specific folder by providing its path.
+cd C:\Users\User\Documents
+# 2. Move up one level in the folder hierarchy.
+cd ..
+# 3. Navigate to the root of the current drive.
+cd \
+# Tip: Use Tab for auto-completion when typing folder names.
+
+# dir (List Files and Folders)
+# The `dir` command lists all files and folders in the current directory.
+# Example: Display the contents of the current folder.
+dir
+# Additional options:
+# - Show hidden files: dir /A:H
+# - Detailed information: dir /Q
+# - Files sorted by time: dir /T:C
+# Example Output:  
+# 12/16/2024  03:45 PM    <DIR>          Documents  
+# 12/16/2024  03:47 PM                 128 notes.txt
+
+# mkdir (Create New Folders)
+# The `mkdir` command creates a new folder in the current directory.
+# Example: Create a folder named "Projects."
+mkdir Projects
+
+# echo (Create Empty Files)
+# On Windows, you can create a new empty file using the `echo` command.
+# Example: Create a file named "notes.txt."
+echo. > notes.txt
+# Tip: The `.` after `echo` ensures no text is added to the file.
+
+# type (View File Contents)
+# The `type` command displays the contents of a file in the terminal.
+# Example: Display the contents of "notes.txt."
+type notes.txt
+
+# notepad (Edit Files)
+# Use the `notepad` command to open files for editing in the Notepad application.
+# Example: Open "notes.txt" for editing.
+notepad notes.txt
+
+# move (Rename or Move Files)
+# The `move` command is used to rename or move files to another folder.
+# Example: Rename "file1.txt" to "file2.txt."
+move file1.txt file2.txt
+# Example: Move "notes.txt" to the "Documents" folder.
+move notes.txt C:\Users\User\Documents
+
+# copy (Copy Files)
+# The `copy` command creates a duplicate of a file or files.
+# Example: Copy "file.txt" to "backup.txt."
+copy file.txt backup.txt
+
+# cls (Clear Screen)
+# The `cls` command clears the terminal screen, making it clean and uncluttered.
+# Example: Clear the screen.
+cls
+
+# npm (Node Package Manager)
+# `npm` is used to manage Node.js packages and dependencies.
+# Install a package globally:
+npm install -g package_name
+# Example: Install the "express" package.
+npm install express
+
+# node (Run JavaScript Files)
+# The `node` command runs JavaScript files using Node.js.
+# Example: Run a JavaScript file named "app.js."
+node app.js
+
+# git (Version Control)
+# `git` is a version control system used to manage code changes.
+# Clone a repository:
+git clone https://github.com/user/repository.git
+# Check the status of your local changes:
+git status
+# Commit changes:
+git add .
+git commit -m "Your message"

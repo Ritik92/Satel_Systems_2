@@ -1,0 +1,37 @@
+// VARIABLES AND DATA TYPES
+// 1. Declare a variable to store your name, age, and whether you are a student.
+// 2. Swap two variables without using a third variable.
+// 3. Check the type of a given variable (e.g., 42, 3.14, "hello").
+
+// INPUT AND OUTPUT
+// 4. Write a program to take a user's name as input and print a greeting.
+// 5. Create a program that asks for two numbers and prints their sum, difference, product, and division.
+// 6. Take a string input from the user and print it in reverse.
+
+// CONDITIONALS
+// 7. Write a program to check if a number is even or odd.
+// 8. Create a program to determine whether a given year is a leap year.
+// 9. Write a program that takes three numbers and prints the largest among them.
+
+// LOOPS
+// 10. Print the first 10 natural numbers using a loop.
+// 11. Write a program to calculate the factorial of a number.
+// 12. Generate the Fibonacci sequence up to a certain number.
+// 13. Print a pattern of stars (e.g., a triangle or square).
+
+// FUNCTIONS
+// 14. Write a function to calculate the square of a number.
+// 15. Create a function that checks if a string is a palindrome.
+// 16. Write a function to find the greatest common divisor (GCD) of two numbers.
+
+// ARRAYS OR LISTS
+// 17. Create an array of integers and print all the elements.
+// 18. Write a program to find the largest and smallest elements in an array.
+// 19. Reverse an array without using built-in functions.
+
+// STRINGS
+// 20. Concatenate two strings and print the result.
+// 21. Count the number of vowels in a given string.
+// 22. Write a program to find the first non-repeated character in a string.
+
+
