@@ -110,11 +110,13 @@ console.log(greet("John")); // Output: Hello, John!
 
 
 // function some(){
-
+//xyz
 // }
-//  const some= ()=>{
 
-//  }
+
+//some()
+//  const some= ()=> {
+  // }
 
 const greetArrow = (name) => `Hello, ${name}!`;
 console.log(greetArrow("Jane")); // Output: Hello, Jane!
@@ -176,9 +178,10 @@ console.log(tail); // Output: [2, 3, 4]
 
 // **4.2 Spread Operator**
 // Expanding arrays
-const arr1 = [1, 2];
-const arr2 = [...arr1, 3, 4];
-console.log(arr2); // Output: [1, 2, 3, 4]
+// const arr1 = [1, 2];
+// const arr2 = [...arr1, 3, 4];
+// console.log(arr2)
+
 
 // Combining objects
 const user1 = { name: "Alice" };
@@ -216,7 +219,11 @@ console.log(canVoteIfElse); // Output: Yes
 // **What is optional chaining?**
 // - A way to safely access nested properties without risking errors.
 
-const user = { profile: { name: "Alice" } };
+
+
+const user = {
+   profile: { name: "Alice" }
+   };
 console.log(user?.profile?.name); // Output: Alice
 console.log(user?.address?.city); // Output: undefined
 
@@ -227,7 +234,15 @@ console.log(user?.address?.city); // Output: undefined
 
 // **map**: Transform each element in an array.
 const numbers = [1, 2, 3];
-const squares = numbers.map((n) => n * n);
+
+// const square=[1,4,9];
+
+// for(let i=0;i<3;i++){
+// square[i]=numbers[i]*numbers[i]
+// }
+
+
+const squares = numbers.map((n) => n+1);
 console.log(squares); // Output: [1, 4, 9]
 
 // **filter**: Filter elements based on a condition.
@@ -238,7 +253,12 @@ console.log(evens); // Output: [2]
  * 8. setInterval and clearInterval
  * =================================
  */
-
+// const handler=()=>{
+//   console.log("Hi")
+// }
+// setTimeout(()=>{
+//   console.log("HI")
+// },2000)
 // **setInterval**: Execute a function repeatedly at specified intervals.
 let counter = 0;
 const interval = setInterval(() => {
@@ -266,6 +286,12 @@ fetchData();
 
 // **What is error handling?**
 // - A way to handle runtime errors and prevent application crashes.
+
+
+
+//throw an error
+
+
 
 try {
   JSON.parse("Invalid JSON"); // Throws an error

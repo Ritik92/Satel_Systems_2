@@ -1,4 +1,4 @@
-# pwd (Windows: Displays the current working directory)
+# pwd
 # On Windows, the command `cd` shows the current working directory. 
 # This is different from Mac/Linux where a separate command `pwd` is used.
 # Example: Show the current working directory.
