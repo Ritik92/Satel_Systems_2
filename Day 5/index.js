@@ -253,12 +253,13 @@ console.log(evens); // Output: [2]
  * 8. setInterval and clearInterval
  * =================================
  */
-// const handler=()=>{
-//   console.log("Hi")
-// }
-// setTimeout(()=>{
-//   console.log("HI")
-// },2000)
+const handler=()=>{
+  console.log("Hi")
+}
+
+setTimeout(()=>{
+  console.log("HI")
+},2000)
 // **setInterval**: Execute a function repeatedly at specified intervals.
 let counter = 0;
 const interval = setInterval(() => {
