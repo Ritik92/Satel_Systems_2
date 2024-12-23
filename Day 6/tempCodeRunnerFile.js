@@ -1,11 +1,5 @@
-const myPromise = new Promise((resolve, reject) => {
-//     let success = true; // Change to false to simulate failure
-
-//     setTimeout(() => {
-//         if (success) {
-//             resolve("Promise resolved successfully!"); // Task successful
-//         } else {
-//             reject("Promise rejected!"); // Task failed
-//         }
-//     }, 2000);
-// });
+if (error) {
+            console.error("Something went wrong:", error); // Handle errors
+        } else {
+            console.log("Callback: Data fetched:", data); // Log the data
+        }
