@@ -3,13 +3,23 @@ const app = express();
 require('dotenv').config();
 const port = process.env.PORT || 3000;
 
+function middleware(req,res,next){
+ if(req.username=="somethng"){
+  next();
+ }
+ else{
+  res.status(400).send("Username is wrong")
+ }
+
+}
+
 // get route
-app.get('/', (req, res) => {
+app.get('/',middleware, (req, res) => {
   res.send('Hello from GET route!');
 });
 
 // post route
-app.post('/add', (req, res) => {
+app.post('/add',middleware, (req, res) => {
   res.send('Hello from POST route!');
 });
 
