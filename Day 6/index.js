@@ -33,6 +33,13 @@ Goodbye!
 
 const cart=["shoes","shirt","glasses","watches"]
 
+let created_Cart=createcart(cart)
+let finalPlaceOrder=placeorder(created_Cart)
+let finalsummary=ordersummary(finalPlaceOrder)
+console.log("TAsk")
+
+
+
 createcart(cart,function (createdcart){
     placeorder(createdcart,function(finalPlaceOrderDat){
         ordersummary(finalPlaceOrderDat);
@@ -72,7 +79,7 @@ Why use callbacks?
 */
 
 // ---------------------------------------
-// 2. PROMISES
+// 2. PROMISES    https://jsonplaceholder.typicode.com/posts
 // ---------------------------------------
 
 /*
@@ -85,7 +92,7 @@ What is a Promise?
 // Example 1: Basic Promise Example
 
 const p=new Promise(function(resolve,reject){
-    resolve("Resolved")
+    resolve("Promise Resolved")
 })
 
 
